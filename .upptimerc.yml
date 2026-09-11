@@ -25,8 +25,6 @@ status-website:
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
-notifications:
-  - type: webhook
-    url: https://ntfy.sh/upptime-alerts-8vbyb41l38k2mi3fx1t1bs37l8p99ueg
-    headers:
-      Title: "Upptime Alert"
+secrets:
+  - NOTIFICATION_CUSTOM_WEBHOOK
+  - NOTIFICATION_CUSTOM_WEBHOOK_URL
